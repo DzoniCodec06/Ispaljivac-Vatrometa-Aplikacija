@@ -4,7 +4,7 @@ import FontAwesome, { BrandIcons, SolidIcons } from "react-native-fontawesome";
 export default function HomeScreen() {
     function findDevice() {
         alert("Button is pressed!");
-        Vibration.vibrate(1, false);
+        Vibration.vibrate(1 * 200, false);
     }
 
     return(

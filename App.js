@@ -1,7 +1,9 @@
 import { StyleSheet, Text, View, SafeAreaView, StatusBar } from 'react-native';
 
 // Import components
-import HomeScreen  from "./assets/components/HomeScreen";
+import HomeScreen from "./assets/components/HomeScreen";
+import NodeControll from './assets/components/NodeControll';
+import ChannelControll from './assets/components/ChannelControll';
 
 export default function App() {
   return (
